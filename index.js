@@ -25,3 +25,10 @@ function arrayPrinter(arrayInput){
     }
 }
 arrayPrinter(myNewPushArray);
+
+function subtraction (a,b){
+    return (a -b);
+}
+let br = "<br>";
+document.writeln (`${subtraction(3,2)}  ${br}`);
+document.writeln (subtraction(6,3)+ br);
